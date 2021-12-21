@@ -6,9 +6,19 @@ li {
     list-style-type: none;
 }
 
+ul {
+    display: flex;
+}
+
+a {
+    padding: 20px;
+    text-decoration: none;
+    color:#F9FAF8;
+}
+
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -17,3 +27,4 @@ li {
     font-weight: bold;
     font-size: 16px;
 }
+
