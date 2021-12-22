@@ -2,6 +2,10 @@
     background-color: #1F2937;
 }
 
+body {
+    font-family: 'Roboto';
+}
+
 li {
     list-style-type: none;
 }
@@ -16,6 +20,22 @@ a {
     color:#F9FAF8;
 }
 
+img {
+    height:100px;
+    width: fit-content;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+}
+
 .header {
     display: flex;
     justify-content: space-evenly;
@@ -28,3 +48,29 @@ a {
     font-size: 16px;
 }
 
+.section_1 {
+    background-color: #1F2937;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.section_2 {
+    display: flex;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    display: flex;
+    flex-basis: 120px;
+    flex-wrap: wrap;
+}
+.herosub {
+    font-size: 18px;
+    color: #E5E7EB;
+}
