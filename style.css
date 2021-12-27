@@ -36,6 +36,15 @@ h2{
     font-weight: bolder;
 }
 
+button {
+    border-color: #F9FAF8;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
 .header {
     display: flex;
     justify-content: space-evenly;
@@ -65,6 +74,23 @@ h2{
     background-color: #E5E7EB;
     font-size: 36px;
     padding: 50px;
+}
+
+.section_4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 40px 50px 40px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 25px 45px 25px 45px;
+    background-color: #3882F6;
+    color: #F9FAF8;
 }
 
 h3 {
@@ -121,4 +147,10 @@ h3 {
 .herosub {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.footer {
+    color: white;
+    display: flex;
+    justify-content: center;
 }
