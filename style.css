@@ -58,11 +58,59 @@ h2{
 
 .section_2 {
     display: flex;
+
+}
+
+.section_3 {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    padding: 50px;
+}
+
+h3 {
+    font-weight: normal;
+    font-style: italic;
 }
 
 .items {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.apache, .blackhawk, .chinook, .kiowa {
+    display: flex;
+    flex-basis: 150px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.apache > img {
+    border: blue;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+}
+
+.blackhawk > img {
+    border: blue;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+}
+
+.chinook > img {
+    border: blue;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+}
+
+.kiowa > img {
+    border: blue;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
 }
 
 .text {
